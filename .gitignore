@@ -18,3 +18,7 @@
 /src/.umi-production
 /src/.umi-test
 /.env.local
+
+#umi-mfsu加速
+/.mfsu-dev
+/.mfsu-prod
