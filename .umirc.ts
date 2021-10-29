@@ -1,7 +1,7 @@
 /*
  * @Author: fuzhenghao
  * @Date: 2021-10-27 15:26:02
- * @LastEditTime: 2021-10-28 15:22:58
+ * @LastEditTime: 2021-10-29 09:26:29
  * @LastEditors: fuzhenghao
  * @Description:
  * @FilePath: \myBlog_manage\.umirc.ts
@@ -21,7 +21,7 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
-  routes: [{ path: '/', component: '@/pages/index' }],
+  routes: routes,
   fastRefresh: {},
   dynamicImport: { loading: '@/components/PreLoading/index' },
   proxy: {
